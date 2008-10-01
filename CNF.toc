@@ -9,7 +9,7 @@
 ## X-Donate: Donate a few bucks/hours at your local animal shelter, or send me UDE Point codes, a Murky Code, or an account upgrade certificate.
 
 ## Interface: 20400
-## Version: 3.0
+## Version: 3.01
 ## X-Revision: $Rev$
 ## X-Date: $Date$
 
@@ -18,9 +18,9 @@
 ## X-Category: Chat/Communication
 ## X-Localizations: enUS
 ## X-Website: http://www.wowwiki.com/CNF
-## X-Feedback: http://www.curse.com/downloads/details/13400/
+## X-Feedback: http://wow.curse.com/downloads/wow-addons/details/cnf.aspx
 ## X-AceForum: http://www.wowace.com/forums/
-## X-RelSite-Curse: 13400
+## X-RelSite-Curse: 
 ## X-RelSite-WoWI: 10003
 ## X-RelSite-WoWUI: 3652
 
@@ -32,10 +32,6 @@
 ## LoadOnDemand: 0
 
 embeds.xml
-
-# Localization files
-
-AboutPanel.lua
 
 CNF.lua
 CNFDB.lua
