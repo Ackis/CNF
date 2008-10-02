@@ -19,12 +19,7 @@
 ## X-Localizations: enUS
 ## X-Website: http://www.wowwiki.com/CNF
 ## X-Feedback: http://wow.curse.com/downloads/wow-addons/details/cnf.aspx
-## X-AceForum: http://www.wowace.com/forums/
-## X-RelSite-Curse: 
-## X-RelSite-WoWI: 10003
-## X-RelSite-WoWUI: 3652
 
-## X-LoadOn-Slash: /chuck
 ## Dependencies:
 ## X-Embeds: Ace3, LibStub, CallbackHandler-1.0, LibAboutPanel
 ## OptionalDeps: Ace3, LibStub, CallbackHandler-1.0, LibAboutPanel
