@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 ****************************************************************************************
 Chuck Norris Facts Database
@@ -495,7 +495,7 @@ addon.CNFDB = {
 	"Chuck Norris roundhouse kicks people in the face first and asks questions later.",
 	"When Chuck Norris was born, the only person who cried was the doctor. Never slap Chuck Norris.",
 	"Chuck Norris can sneeze with his eyes open.",
-	"Archeologists in India recently uncovered a new dinosaur. It's actually many dinosaurs but one is in the middle of all the others. The one in the middle is believed to have killed the others with a single roundhouse kick to the face. The archeologists wanted to call it ChuckNorrisaurs but the Indian government changed the name to Himotosaurous because it�s simply not possible for Mr. Norris to be killed.",
+	"Archeologists in India recently uncovered a new dinosaur. It's actually many dinosaurs but one is in the middle of all the others. The one in the middle is believed to have killed the others with a single roundhouse kick to the face. The archeologists wanted to call it ChuckNorrisaurs but the Indian government changed the name to Himotosaurous because its simply not possible for Mr. Norris to be killed.",
 	"Chuck Norris got a perfect score on his SAT's, simply by writing Chuck Norris for every answer.",
 	"Chuck Norris has to use a stunt double when he does crying scenes.",
 	"Chuck Norris successfully seperated twins conjoined at the head by roundkicking them in the face.",
