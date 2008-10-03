@@ -199,7 +199,7 @@ function addon:ChatCommandHandler(arg)
 	elseif (input == "say") or (input == "s") then
 		addon:DisplayCNF("SAY")
 	elseif (input == "whisper") or (input == "w") then
-		self:Print("NYI")
+		self:Print("NYI - Ticket made already")
 		--addon:DisplayCNF("WHISPER", input)
 	elseif (input == "yell") or (input == "y") then
 		addon:DisplayCNF("YELL")

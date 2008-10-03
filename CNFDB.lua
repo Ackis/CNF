@@ -565,3 +565,4 @@ addon.CNFDB = {
 	"Chuck Norris eats a bowl of diamonds every morning.",
 	"Chuck Norris is not only a noun, but a verb.",
 } 
+
