@@ -1,4 +1,5 @@
 ﻿--[[
+
 ****************************************************************************************
 Chuck Norris Facts Database
 
@@ -12,6 +13,7 @@ Created by Ackis from scratch on August 2, 2008
 Please see Wowace.com for more information.
 
 ****************************************************************************************
+
 ]]
 
 local addon = CNF

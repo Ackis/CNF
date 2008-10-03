@@ -1,4 +1,5 @@
 --[[
+
 ****************************************************************************************
 Chuck Norris Facts
 
@@ -12,6 +13,7 @@ By Ackis and Lothaer
 Original by Lothaer, modified version by Ackis and then the two versions merged together.
 
 ****************************************************************************************
+
 ]]
 
 CNF 		= LibStub("AceAddon-3.0"):NewAddon("Chuck Norris Facts", "AceConsole-3.0")

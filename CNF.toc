@@ -13,7 +13,7 @@
 ## X-Revision: $Rev$
 ## X-Date: $Date$
 
-## X-credits:
+## X-credits: 
 
 ## X-Category: Chat/Communication
 ## X-Localizations: enUS
