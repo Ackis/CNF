@@ -8,8 +8,8 @@
 ## X-License: MIT modified with notification clause
 ## X-Donate: Donate a few bucks/hours at your local animal shelter, or send me UDE Point codes, a Murky Code, or an account upgrade certificate.
 
-## Interface: 20400
-## Version: 3.02
+## Interface: 30000
+## Version: 3.03
 ## X-Revision: $Rev$
 ## X-Date: $Date$
 
