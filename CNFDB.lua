@@ -9,6 +9,7 @@ $Rev$
 ****************************************************************************************
 
 Database mined from www.chucknorrisfacts.com
+Will translate to French soon.
 Created by Ackis from scratch on August 2, 2008
 Please see Wowace.com for more information.
 

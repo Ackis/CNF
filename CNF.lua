@@ -24,6 +24,7 @@ local random = math.random
 local GetGameTime = GetGameTime
 
 -- Spam protection
+
 local lastminute
 
 -- Returns configuration options for CNF
