@@ -14,7 +14,7 @@ Currently maintained by: Ackis
 
 Please make sure you update the ToC file with any translations.
 
-Please update http://www.wowace.com/projects/arl/localization/enUS/ for any translation
+Please update http://www.wowace.com/projects/cnf/localization/enUS/ for any translation
 additions or changes.
 
 ****************************************************************************************
@@ -57,12 +57,12 @@ L["raidwarn"] = true
 L["battleground"] = true
 L["whisper"] = true
 
-L["CNF1"] = "Guns don't kiL people. Chuck Norris kiLs People."
-L["CNF2"] = "There is no theory of evolution. Just a list of animals Chuck Norris aLows to live."
+L["CNF1"] = "Guns don't kill people. Chuck Norris kills People."
+L["CNF2"] = "There is no theory of evolution. Just a list of animals Chuck Norris allows to live."
 L["CNF3"] = "Chuck Norris does not sleep. He waits."
 L["CNF4"] = "The chief export of Chuck Norris is Pain."
 L["CNF5"] = "There is no chin under Chuck Norris' Beard. There is only another fist."
-L["CNF6"] = "Chuck Norris has two speeds. Walk, and KiL."
+L["CNF6"] = "Chuck Norris has two speeds. Walk, and Kill."
 L["CNF7"] = "The leading causes of death in the United States are: 1. Heart Disease 2. Chuck Norris 3. Cancer."
 L["CNF8"] = "Chuck Norris drives an ice cream truck covered in human skuLs."
 L["CNF9"] = "Chuck Norris is my Homeboy."
@@ -602,5 +602,3 @@ L["CNF542"] = "Some people say that Chuck Norris is a myth. Those 'some people' 
 L["CNF543"] = "When Chuck Norris sneeze, he don't say 'Atchoo' he says 'DIE EVERYONE!!!'. That's what happens next."
 L["CNF544"] = "Chuck Norris eats a bowl of diamonds every morning."
 L["CNF545"] = "Chuck Norris is not only a noun, but a verb."
-
-      
