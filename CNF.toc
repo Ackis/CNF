@@ -28,5 +28,7 @@
 
 embeds.xml
 
+local.xml
+
 CNF.lua
 CNFDB.lua

@@ -18,15 +18,17 @@ Original by Lothaer, modified version by Ackis and then the two versions merged 
 
 ]]
 
-local		MODNAME = "Chuck Norris Facts"
+local MODNAME = "Chuck Norris Facts"
 
-CNF 		= LibStub("AceAddon-3.0"):NewAddon(MODNAME, "AceConsole-3.0")
+CNF	= LibStub("AceAddon-3.0"):NewAddon(MODNAME, "AceConsole-3.0")
 
 local addon = CNF
 
 local random = math.random
 local lower = string.lower
 local GetGameTime = GetGameTime
+
+local L	= LibStub("AceLocale-3.0"):GetLocale(MODNAME)
 
 -- Spam protection
 
