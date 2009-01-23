@@ -1,0 +1,46 @@
+== What it does ==
+
+A small mod which will display Chuck Norris facts to you and output to selected chat channels. Has anti-spam mechanisms built in. 
+
+== Where to get it ==
+[http://www.wowace.com/projects/cnf/files/ WoW Ace] - Often Beta quality
+
+[http://wow.curse.com/downloads/wow-addons/details/cnf.aspx Curse] - Most updated stable version
+
+[http://wowui.worldofwar.net/?p=mod&m=6532/ WoW UI] - Stable Version
+
+[http://www.wowinterface.com/downloads/info10003/ WoW Interface] - Stable Version
+
+== How to get it to work ==
+
+Type /chuck or /cnf to display a Chuck Norris fact to yourself.  Add a parameter such as say, party, raid, or guild to output to those channels.
+
+=== Examples ===
+
+*<code>/chuck</code> - Will print out a Chuck Norris fact for you to see.
+*<code>/chuck say</code> - Will print out a Chuck Norris fact in say.
+*<code>/chuck guild</code> - Will print out a Chuck Norris fact in guild.
+
+=== Commands ===
+
+*Display Chuck Norris facts:
+**<code>/chuck</code>
+**<code>/cnf</code>
+
+== Known Issues ==
+
+All known issues will be kept at the [http://www.wowace.com/projects/cnf/tickets/ WoW Ace] tracker.
+
+Please use the [http://www.wowace.com/projects/cnf/tickets/ WoW Ace] tracker to file bug reports.
+
+== Wish List ==
+
+Please use the [http://www.wowace.com/projects/cnf/tickets/ WoW Ace] tracker to add suggestions and feature requests.
+
+== Bug Reporting ==
+
+Please use the [http://www.wowace.com/projects/cnf/tickets/ WoW Ace] tracker to file bug reports.
+
+== Wiki ==
+
+[http://www.wowwiki.com/CNF WoW Wiki]
