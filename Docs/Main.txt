@@ -3,7 +3,7 @@
 A small mod which will display Chuck Norris facts to you and output to selected chat channels. Has anti-spam mechanisms built in. 
 
 == Where to get it ==
-[http://www.wowace.com/projects/cnf/files/ WoW Ace] - Often Beta quality
+[http://www.curseforge.com/projects/cnf/files/ WoW Ace] - Often Beta quality
 
 [http://wow.curse.com/downloads/wow-addons/details/cnf.aspx Curse] - Most updated stable version
 
@@ -27,19 +27,23 @@ Type /chuck or /cnf to display a Chuck Norris fact to yourself.  Add a parameter
 **<code>/chuck</code>
 **<code>/cnf</code>
 
+== Localization ==
+
+To contribute to a localization, please visit the [http://wow.curseforge.com/projects/cnf/localization/ localization application].
+
 == Known Issues ==
 
-All known issues will be kept at the [http://www.wowace.com/projects/cnf/tickets/ WoW Ace] tracker.
+All known issues will be kept at the [http://www.curseforge.com/projects/cnf/tickets/ WoW Ace] tracker.
 
-Please use the [http://www.wowace.com/projects/cnf/tickets/ WoW Ace] tracker to file bug reports.
+Please use the [http://www.curseforge.com/projects/cnf/tickets/ WoW Ace] tracker to file bug reports.
 
 == Wish List ==
 
-Please use the [http://www.wowace.com/projects/cnf/tickets/ WoW Ace] tracker to add suggestions and feature requests.
+Please use the [http://www.curseforge.com/projects/cnf/tickets/ WoW Ace] tracker to add suggestions and feature requests.
 
 == Bug Reporting ==
 
-Please use the [http://www.wowace.com/projects/cnf/tickets/ WoW Ace] tracker to file bug reports.
+Please use the [http://www.curseforge.com/projects/cnf/tickets/ WoW Ace] tracker to file bug reports.
 
 == Wiki ==
 
