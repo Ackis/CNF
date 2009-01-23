@@ -18,7 +18,13 @@ Please see Wowace.com for more information.
 
 ]]
 
+local MODNAME = "Chuck Norris Facts"
+
+CNF	= LibStub("AceAddon-3.0"):NewAddon(MODNAME, "AceConsole-3.0")
+
 local addon = CNF
+
+local L	= LibStub("AceLocale-3.0"):GetLocale(MODNAME)
 
 addon.CNFDB = {
 	"Guns don't kill people. Chuck Norris kills People.",
