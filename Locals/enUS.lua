@@ -24,6 +24,39 @@ local L = LibStub("AceLocale-3.0"):NewLocale("Chuck Norris Facts","enUS",true)
 
 if not L then return end
 
+L["Display Fact (Self)"] = true
+L["Display Fact (Say)"] = true
+L["Display Fact (Yell)"] = true
+L["Display Fact (Guild)"] = true
+L["Display Fact (Officer)"] = true
+L["Display Fact (Party)"] = true
+L["Display Fact (Raid)"] = true
+L["Display Fact (Raid Warning)"] = true
+L["Display Fact (Battleground)"] = true
+L["SELF_LONG"] = "Displays a random Chuck Norris fact to yourself."
+L["SAY_LONG"] = "Displays a random Chuck Norris fact in say."
+L["YELL_LONG"] = "Displays a random Chuck Norris fact in yell."
+L["GUILD_LONG"] = "Displays a random Chuck Norris fact in guild chat."
+L["OFFICER_LONG"] = "Displays a random Chuck Norris fact in officer chat."
+L["PARTY_LONG"] = "Displays a random Chuck Norris fact in party chat."
+L["RAID_LONG"] = "Displays a random Chuck Norris fact in raid chat."
+L["RAIDWARNING_LONG"] = "Displays a random Chuck Norris fact in raid warning chat."
+L["BATTLEGROUND_LONG"] = "Displays a random Chuck Norris fact in battleground chat."
+L["SPAM"] = "You have sent a Chuck Norris Fact to an external source within the last minute, please wait before doing it again."
+
+L["COMMAND_OPTIONS"] = "|cffffff00 Usage:\n   Type /Chuck and then the channel that you wish to post in\n   Self - Send output to your chat window\n   G or Guild - Send output to guild chat\n   R or Raid\n   S or Say\n   Y or Yell\n   P or Party\n   O or Officer\n   RW or Raidwarn\n   BG or Battleground\n   W or Whisper <PlayerName>\n   <ChannelNumber> - such as 1,2, 3, etc"
+
+L["self"] = true
+L["say"] = true
+L["yell"] = true
+L["guild"] = true
+L["officer"] = true
+L["party"] = true
+L["raid"] = true
+L["raidwarn"] = true
+L["battleground"] = true
+L["whisper"] = true
+
 L["CNF1"] = "Guns don't kiL people. Chuck Norris kiLs People."
 L["CNF2"] = "There is no theory of evolution. Just a list of animals Chuck Norris aLows to live."
 L["CNF3"] = "Chuck Norris does not sleep. He waits."

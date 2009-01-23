@@ -51,72 +51,72 @@ local function giveCNFOptions()
 			displayself = 
 			{
 				type = "execute",
-				name = "Display Fact (Self)",
-				desc = "Displays a random Chuck Norris fact to yourself.",
+				name = L["Display Fact (Self)"],
+				desc = L["SELF_LONG"],
 				func = function(info) addon:Print(addon:GetCNF()) end,
 				order = 5,
 			},
 			displaysay = 
 			{
 				type = "execute",
-				name = "Display Fact (Say)",
-				desc = "Displays a random Chuck Norris fact in say.",
+				name = L["Display Fact (Say)"],
+				desc = L["SAY_LONG"],
 				func = function(info) addon:DisplayCNF("SAY") end,
 				order = 6,
 			},
 			displayyell = 
 			{
 				type = "execute",
-				name = "Display Fact (Yell)",
-				desc = "Displays a random Chuck Norris fact in yell.",
+				name = L["Display Fact (Yell)"],
+				desc = L["YELL_LONG"],
 				func = function(info) addon:DisplayCNF("YELL") end,
 				order = 7,
 			},
 			displayguild = 
 			{
 				type = "execute",
-				name = "Display Fact (Guild)",
-				desc = "Displays a random Chuck Norris fact in guild chat.",
+				name = L["Display Fact (Guild)"],
+				desc = L["GUILD_LONG"],
 				func = function(info) addon:DisplayCNF("GUILD") end,
 				order = 10,
 			},
 			displayofficer = 
 			{
 				type = "execute",
-				name = "Display Fact (Officer)",
-				desc = "Displays a random Chuck Norris fact in officer chat.",
+				name = L["Display Fact (Officer)"],
+				desc = L["OFFICER_LONG"],
 				func = function(info) addon:DisplayCNF("OFFICER") end,
 				order = 11,
 			},
 			displayparty = 
 			{
 				type = "execute",
-				name = "Display Fact (Party)",
-				desc = "Displays a random Chuck Norris fact in party chat.",
+				name = L["Display Fact (Party)"],
+				desc = L["PARTY_LONG"],
 				func = function(info) addon:DisplayCNF("PARTY") end,
 				order = 20,
 			},
 			displayraid = 
 			{
 				type = "execute",
-				name = "Display Fact (Raid)",
-				desc = "Displays a random Chuck Norris fact in raid chat.",
+				name = L["Display Fact (Raid)"],
+				desc = L["RAID_LONG"],
 				func = function(info) addon:DisplayCNF("RAID") end,
 				order = 21,
 			},
 			displayraidwarning = 
 			{
 				type = "execute",
-				name = "Display Fact (Raid Warning)",
-				desc = "Displays a random Chuck Norris fact in raid warning chat.",
+				name = L["Display Fact (Raid Warning)"],
+				desc = L["RAIDWARNING_LONG"],
 				func = function(info) addon:DisplayCNF("RAIDWARN") end,
 				order = 21,
 			},
 			displaybg = 
 			{
 				type = "execute",
-				name = "Display Fact (Battleground)",
-				desc = "Displays a random Chuck Norris fact in battleground chat.",
+				name = L["Display Fact (Battleground)"],
+				desc = L["BATTLEGROUND_LONG"],
 				func = function(info) addon:DisplayCNF("BG") end,
 				order = 30,
 			},
@@ -172,28 +172,8 @@ function addon:DisplayCNF(channel,target)
 			SendChatMessage(self:GetCNF(), channel)
 		end
 	else
-		self:Print("You have sent a Chuck Norris Fact to an external source within the last minute, please wait before doing it again.")
+		self:Print(L["SPAM"])
 	end
-
-end
-
--- Prints out the command line options
-
-function addon:PrintCNFOptions()
-
-	self:Print("|cffffff00 Usage:")
-	self:Print("   Type /Chuck and then the channel that you wish to post in")
-	self:Print("   Self - Send output to your chat window")
-	self:Print("   G or Guild - Send output to guild chat")
-	self:Print("   R or Raid")
-	self:Print("   S or Say")
-	self:Print("   Y or Yell")
-	self:Print("   P or Party")
-	self:Print("   O or Officer")
-	self:Print("   RW or Raidwarn")
-	self:Print("   BG or Battleground")
-	self:Print("   W or Whisper <PlayerName>")
-	self:Print("   <ChannelNumber> - such as 1,2, 3, etc")
 
 end
 
@@ -204,33 +184,33 @@ function addon:ChatCommandHandler(arg)
 	local input = lower(arg)
 
 	if (not input) or (input and input:trim() == "") then
-		self:PrintCNFOptions()
-	elseif (input == "self") then
+		self:Print(L["COMMAND_OPTIONS"])
+	elseif (input == L["self"]) then
 		self:Print(self:GetCNF())
-	elseif (input == "say") or (input == "s") then
+	elseif (input == L["say"]) or (input == "s") then
 		addon:DisplayCNF("SAY")
-	elseif (input == "yell") or (input == "y") then
+	elseif (input == L["yell"]) or (input == "y") then
 		addon:DisplayCNF("YELL")
 	elseif (input == "1") or (input == "2") or (input == "3") or (input == "4") or (input == "5") or (input == "6") or (input == "7") or (input == "8") or (input == "9") then
 		addon:DisplayCNF("CHANNEL", input)
-	elseif (input == "guild") or (input == "g") then
+	elseif (input == L["guild"]) or (input == "g") then
 		addon:DisplayCNF("GUILD")
-	elseif (input == "officer") or (input == "o") then
+	elseif (input == L["officer"]) or (input == "o") then
 		addon:DisplayCNF("OFFICER")
-	elseif (input == "party") or (input == "p") then
+	elseif (input == L["party"]) or (input == "p") then
 		addon:DisplayCNF("PARTY")
-	elseif (input == "raid") or (input == "r") then
+	elseif (input == L["raid"]) or (input == "r") then
 		addon:DisplayCNF("RAID")
-	elseif (input == "raidwarn") or (input == "rw") then
+	elseif (input == L["raidwarn"]) or (input == "rw") then
 		addon:DisplayCNF("RAID_WARNING")
-	elseif (input == "battleground") or (input == "bg") then
+	elseif (input == L["battleground"]) or (input == "bg") then
 		addon:DisplayCNF("BATTLEGROUND")
 	else
 		local first, second = string.match(input, "([a-z0-9]+)[ ]?(.*)")
-		if (first == "whisper") or (first == "w") then
+		if (first == L["whisper"]) or (first == "w") then
 			addon:DisplayCNF("WHISPER", second)
 		else
-			self:PrintCNFOptions()
+			self:Print(L["COMMAND_OPTIONS"])
 		end
 	end
 
