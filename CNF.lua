@@ -3,8 +3,10 @@
 ****************************************************************************************
 Chuck Norris Facts
 
-$Date$
-$Rev$
+File date: @file-date-iso@ 
+File revision: @file-revision@ 
+Project revision: @project-revision@
+Project version: @project-version@
 
 By Ackis and Lothaer
 
@@ -16,11 +18,14 @@ Original by Lothaer, modified version by Ackis and then the two versions merged 
 
 ]]
 
-CNF 		= LibStub("AceAddon-3.0"):NewAddon("Chuck Norris Facts", "AceConsole-3.0")
+local		MODNAME = "Chuck Norris Facts"
+
+CNF 		= LibStub("AceAddon-3.0"):NewAddon(MODNAME, "AceConsole-3.0")
 
 local addon = CNF
 
 local random = math.random
+local lower = string.lower
 local GetGameTime = GetGameTime
 
 -- Spam protection
@@ -128,11 +133,16 @@ function addon:OnInitialize()
 	local AceConfigDialog = LibStub("AceConfigDialog-3.0")
 
 	-- Create the options with Ace3
-	LibStub("AceConfig-3.0"):RegisterOptionsTable("Chuck Norris Facts",giveCNFOptions,"Chuck Norris Facts")
+	LibStub("AceConfig-3.0"):RegisterOptionsTable(MODNAME,giveCNFOptions,MODNAME)
 
 	-- Add the options to blizzard frame (add them backwards so they show up in the proper order
-	self.optionsFrame = AceConfigDialog:AddToBlizOptions("Chuck Norris Facts","Chuck Norris Facts")
-	self.optionsFrame["About"] = LibStub("LibAboutPanel").new("Chuck Norris Facts", "CNF")
+	self.optionsFrame = AceConfigDialog:AddToBlizOptions(MODNAME,MODNAME)
+
+	if LibStub:GetLibrary("LibAboutPanel", true) then
+		self.optionsFrame["About"] = LibStub("LibAboutPanel").new(MODNAME, "CNF")
+	else
+		self:Print("Lib AboutPanel not loaded.")
+	end
 
 	self:RegisterChatCommand("chuck", "ChatCommandHandler")
 	self:RegisterChatCommand("cnf", "ChatCommandHandler")
@@ -142,9 +152,7 @@ end
 -- Gets a random quote from the database and returns it.
 
 function addon:GetCNF()
-
 	return addon.CNFDB[random(#addon.CNFDB)]
-
 end
 
 -- Outputs a chuck norris fact to the specified channel.  Does spam checking
@@ -182,7 +190,7 @@ function addon:PrintCNFOptions()
 	self:Print("   O or Officer")
 	self:Print("   RW or Raidwarn")
 	self:Print("   BG or Battleground")
-	--self:Print("   W or Whisper <PlayerName>")
+	self:Print("   W or Whisper <PlayerName>")
 	self:Print("   <ChannelNumber> - such as 1,2, 3, etc")
 
 end
@@ -191,7 +199,7 @@ end
 
 function addon:ChatCommandHandler(arg)
 
-	local input = string.lower(arg)
+	local input = lower(arg)
 
 	if (not input) or (input and input:trim() == "") then
 		self:PrintCNFOptions()
@@ -201,7 +209,7 @@ function addon:ChatCommandHandler(arg)
 		addon:DisplayCNF("SAY")
 	elseif (input == "whisper") or (input == "w") then
 		self:Print("NYI - Ticket made already")
-		--addon:DisplayCNF("WHISPER", input)
+		addon:DisplayCNF("WHISPER", input)
 	elseif (input == "yell") or (input == "y") then
 		addon:DisplayCNF("YELL")
 	elseif (input == "1") or (input == "2") or (input == "3") or (input == "4") or (input == "5") or (input == "6") or (input == "7") or (input == "8") or (input == "9") then
@@ -218,6 +226,8 @@ function addon:ChatCommandHandler(arg)
 		addon:DisplayCNF("RAID_WARNING")
 	elseif (input == "battleground") or (input == "bg") then
 		addon:DisplayCNF("BATTLEGROUND")
+	else
+		self:PrintCNFOptions()
 	end
 
 end
