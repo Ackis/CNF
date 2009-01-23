@@ -3,13 +3,14 @@
 ****************************************************************************************
 Chuck Norris Facts Database
 
-$Date$
-$Rev$
+File date: @file-date-iso@ 
+File revision: @file-revision@ 
+Project revision: @project-revision@
+Project version: @project-version@
 
 ****************************************************************************************
 
 Database mined from www.chucknorrisfacts.com
-Will translate to French soon.
 Created by Ackis from scratch on August 2, 2008
 Please see Wowace.com for more information.
 

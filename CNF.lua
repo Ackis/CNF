@@ -209,9 +209,6 @@ function addon:ChatCommandHandler(arg)
 		self:Print(self:GetCNF())
 	elseif (input == "say") or (input == "s") then
 		addon:DisplayCNF("SAY")
-	elseif (input == "whisper") or (input == "w") then
-		self:Print("NYI - Ticket made already")
-		addon:DisplayCNF("WHISPER", input)
 	elseif (input == "yell") or (input == "y") then
 		addon:DisplayCNF("YELL")
 	elseif (input == "1") or (input == "2") or (input == "3") or (input == "4") or (input == "5") or (input == "6") or (input == "7") or (input == "8") or (input == "9") then
@@ -229,7 +226,12 @@ function addon:ChatCommandHandler(arg)
 	elseif (input == "battleground") or (input == "bg") then
 		addon:DisplayCNF("BATTLEGROUND")
 	else
-		self:PrintCNFOptions()
+		local first, second = string.match(input, "([a-z0-9]+)[ ]?(.*)")
+		if (first == "whisper") or (first == "w") then
+			addon:DisplayCNF("WHISPER", second)
+		else
+			self:PrintCNFOptions()
+		end
 	end
 
 end
