@@ -20,7 +20,7 @@ Please see Wowace.com for more information.
 
 local MODNAME = "Chuck Norris Facts"
 
-CNF	= LibStub("AceAddon-3.0"):NewAddon(MODNAME, "AceConsole-3.0")
+CNF	= LibStub("AceAddon-3.0"):GetAddon(MODNAME)
 
 local addon = CNF
 
