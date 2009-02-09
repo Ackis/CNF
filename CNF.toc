@@ -4,15 +4,12 @@
 
 ## Author: Ackis, lothaer
 ## eMail: ackis AT shaw DOT ca
-## X-email: ackis AT shaw DOT ca
 ## X-Donate: Donate a few bucks/hours at your local animal shelter, or send me UDE Point codes, a Murky Code, or an account upgrade certificate.
 
 ## Interface: 30000
 ## Version: 3.05
 ## X-Revision: @project-revision@
 ## X-Date: @file-date-iso@
-
-## X-credits: 
 
 ## X-Category: Chat/Communication
 ## X-Localizations: enUS
