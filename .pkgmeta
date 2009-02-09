@@ -5,6 +5,8 @@ package-as: CNF
 # File list to ignore:
 ignore:
  - .pkgmeta
+ - .docmeta
+ - Docs
  
 externals:
 	libs/LibStub: svn://svn.wowace.com/wow/libstub/mainline/tags/1.0
