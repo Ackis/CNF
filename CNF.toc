@@ -1,18 +1,18 @@
 ﻿## Title: Chuck Norris Facts
  
-## Notes: Generates and posts random Chuck Norris facts
+## Notes: Generates and posts random Chuck Norris facts to a specified chat medium.
 
 ## Author: Ackis, lothaer
 ## eMail: ackis AT shaw DOT ca
 ## X-Donate: Donate a few bucks/hours at your local animal shelter, or send me UDE Point codes, a Murky Code, or an account upgrade certificate.
 
 ## Interface: 30000
-## Version: 3.05
-## X-Revision: @project-revision@
+## Version: 3.06
+## X-Revision: @project-version@
 ## X-Date: @file-date-iso@
 
 ## X-Category: Chat/Communication
-## X-Localizations: enUS
+## X-Localizations: enUS, deDE
 ## X-Website: http://www.wowwiki.com/CNF
 ## X-Feedback: http://wow.curse.com/downloads/wow-addons/details/cnf.aspx
 
