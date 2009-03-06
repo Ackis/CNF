@@ -23,7 +23,7 @@ Please make sure you update the ToC file with any translations.
 ****************************************************************************************
 ]]--
 
-local L = LibStub("AceLocale-3.0"):NewLocale("Chuck Norris Facts", "zhCN", false);
+local L = LibStub("AceLocale-3.0"):NewLocale("Chuck Norris Facts", "zhCN", false)
 
 if not L then return end
 

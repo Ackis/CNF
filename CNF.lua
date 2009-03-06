@@ -28,10 +28,18 @@ local random = math.random
 local lower = string.lower
 local GetGameTime = GetGameTime
 
+if (not LibStub:GetLibrary("AceLocale-3.0", true)) then
+	addon:Print(format("%s is missing.  Addon cannot run.","AceLocale-3.0"))
+	--@debug@
+	addon:Print("You are using a git version of ARL. All libraries manually to esnure that it works properly.")
+	--@end-debug@
+	CNF = nil
+	return
+end
+
 local L	= LibStub("AceLocale-3.0"):GetLocale(MODNAME)
 
 -- Spam protection
-
 local lastminute
 
 -- Returns configuration options for CNF

@@ -1,0 +1,1 @@
+All localization entries must be added to the Curseforge localization application.  When the addon is packaged, the localization strings are taken from the application and added to the code.
