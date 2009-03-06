@@ -3,13 +3,10 @@
 A small mod which will display Chuck Norris facts to you and output to selected chat channels. Has anti-spam mechanisms built in. 
 
 == Where to get it ==
-[http://www.curseforge.com/projects/cnf/files/ Curseforge] - Often Beta quality
-
-[http://wow.curse.com/downloads/wow-addons/details/cnf.aspx Curse] - Most updated stable version
-
-[http://wowui.worldofwar.net/?p=mod&m=6532/ WoW UI] - Stable Version
-
-[http://www.wowinterface.com/downloads/info10003/ WoW Interface] - Stable Version
+*[http://www.curseforge.com/projects/cnf/files/ Curseforge] - Often Beta quality
+*[http://wow.curse.com/downloads/wow-addons/details/cnf.aspx Curse] - Most updated stable version
+*[http://wowui.worldofwar.net/?p=mod&m=6532/ WoW UI] - Stable Version
+*[http://www.wowinterface.com/downloads/info10003/ WoW Interface] - Stable Version
 
 == How to get it to work ==
 
@@ -29,7 +26,7 @@ Type /chuck or /cnf to display a Chuck Norris fact to yourself.  Add a parameter
 
 == Localization ==
 
-To contribute to a localization, please visit the [http://wow.curseforge.com/projects/cnf/localization/ localization application].
+To contribute to a localization, please visit the [http://wow.curseforge.com/projects/cnf/localization/ localization application].  Anyone can add to these lists.  Please feel free to contribute.
 
 == Known Issues ==
 
