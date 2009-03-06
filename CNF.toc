@@ -1,4 +1,4 @@
-﻿## Title: Chuck Norris Facts
+﻿## Title: Chuck Norris Facts (CNF)
  
 ## Notes: Generates and posts random Chuck Norris facts to a specified chat medium.
 
@@ -23,7 +23,6 @@
 ## LoadOnDemand: 0
 
 embeds.xml
-
 local.xml
 
 CNF.lua
