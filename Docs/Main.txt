@@ -9,39 +9,31 @@ A small mod which will display Chuck Norris facts to you and output to selected 
 *[http://www.wowinterface.com/downloads/info10003/ WoW Interface] - Stable Version
 
 == How to get it to work ==
-
 Type /chuck or /cnf to display a Chuck Norris fact to yourself.  Add a parameter such as say, party, raid, or guild to output to those channels.
 
 === Examples ===
-
 *<code>/chuck</code> - Will print out a Chuck Norris fact for you to see.
 *<code>/chuck say</code> - Will print out a Chuck Norris fact in say.
 *<code>/chuck guild</code> - Will print out a Chuck Norris fact in guild.
 
 === Commands ===
-
 *Display Chuck Norris facts:
 **<code>/chuck</code>
 **<code>/cnf</code>
 
 == Localization ==
-
 To contribute to a localization, please visit the [http://wow.curseforge.com/projects/cnf/localization/ localization application].  Anyone can add to these lists.  Please feel free to contribute.
 
 == Known Issues ==
-
 All known issues will be kept at the [http://www.curseforge.com/projects/cnf/tickets/ Curseforge] tracker.
 
 Please use the [http://www.curseforge.com/projects/cnf/tickets/ Curseforge] tracker to file bug reports.
 
 == Wish List ==
-
 Please use the [http://www.curseforge.com/projects/cnf/tickets/ Curseforge] tracker to add suggestions and feature requests.
 
 == Bug Reporting ==
-
 Please use the [http://www.curseforge.com/projects/cnf/tickets/ Curseforge] tracker to file bug reports.
 
 == Wiki ==
-
 [http://www.wowwiki.com/CNF WoW Wiki]
