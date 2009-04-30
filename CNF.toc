@@ -1,4 +1,4 @@
-﻿## Title: Chuck Norris Facts (CNF) @project-version@
+﻿## Title: Chuck Norris Facts (CNF)
  
 ## Notes: Generates and posts random Chuck Norris facts to a specified chat medium.
 
@@ -7,12 +7,12 @@
 ## X-Donate: Donate a few bucks/hours at your local animal shelter, or send me UDE Point codes, a Murky Code, or an account upgrade certificate.
 
 ## Interface: 30100
-## Version: 3.10
-## X-Revision: @project-version@
+## Version: 3.1
+## X-Revision: @project-revision@
 ## X-Date: @file-date-iso@
 
 ## X-Category: Chat/Communication
-## X-Localizations: enUS, deDE
+## X-Localizations: enUS, deDE. ruRU
 ## X-Website: http://www.wowwiki.com/CNF
 ## X-Feedback: http://wow.curse.com/downloads/wow-addons/details/cnf.aspx
 
@@ -22,7 +22,10 @@
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
 
+#@no-lib-strip@
+# Libraries
 embeds.xml
+#@end-no-lib-strip@
 
 local.xml
 
