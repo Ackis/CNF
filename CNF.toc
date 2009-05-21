@@ -15,7 +15,7 @@
 ## X-Localizations: enUS, deDE, ruRU
 ## X-Website: http://www.wowwiki.com/CNF
 ## X-Feedback: http://wow.curse.com/downloads/wow-addons/details/cnf.aspx
- 
+
 ## Dependencies:
 ## X-Embeds: Ace3, LibStub, CallbackHandler-1.0, LibAboutPanel
 ## OptionalDeps: Ace3, LibStub, CallbackHandler-1.0, LibAboutPanel
