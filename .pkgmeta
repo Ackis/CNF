@@ -2,6 +2,8 @@ package-as: CNF
 
 license-output: LICENSE.txt
 
+enable-nolib-creation: yes
+
 ignore:
  - .pkgmeta
  - .docmeta
@@ -10,7 +12,7 @@ ignore:
 tools-used:
  - dlcount
  - querier
- 
+
 externals:
  libs/LibStub:
   url: svn://svn.wowace.com/wow/libstub/mainline/trunk
@@ -20,12 +22,13 @@ externals:
   tag: latest
  libs/AceLocale-3.0:
   url: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceLocale-3.0
+ libs/AceConfig-3.0:
+  url: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceConfig-3.0
  libs/AceConsole-3.0:
   url: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceConsole-3.0
+ libs/AceGUI-3.0:
+  url: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceGUI-3.0
  libs/AceAddon-3.0:
   url: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceAddon-3.0
- libs/AceConfig-3.0: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceConfig-3.0
- libs/AceGUI-3.0: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceGUI-3.0
  libs/LibAboutPanel:
   url: git://git.curseforge.net/wow/libaboutpanel/mainline.git
-  tag: latest
