@@ -7,7 +7,7 @@
 ## X-Donate: http://www.wowace.com/projects/cnf/#w_donations
 
 ## Interface: 30100
-## Version: 3.2
+## Version: 3.21
 ## X-Revision: @project-version@
 ## X-Date: @file-date-iso@
 
