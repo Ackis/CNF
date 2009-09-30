@@ -4,8 +4,6 @@
 Chuck Norris Facts
 
 File date: @file-date-iso@ 
-File revision: @file-revision@ 
-Project revision: @project-revision@
 Project version: @project-version@
 
 By Ackis and Lothaer
@@ -17,6 +15,11 @@ Original by Lothaer, modified version by Ackis and then the two versions merged 
 ****************************************************************************************
 
 ]]
+
+--- **CNF** 
+-- @class file
+-- @name IHML.lua
+-- @release 3.31
 
 local MODNAME = "Chuck Norris Facts"
 
