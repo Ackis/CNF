@@ -6,8 +6,8 @@
 ## eMail: ackis AT shaw DOT ca
 ## X-Donate: http://www.wowace.com/projects/cnf/#w_donations
 
-## Interface: 30200
-## Version: 3.4
+## Interface: 30300
+## Version: 3.41
 ## X-Revision: @project-version@
 ## X-Date: @file-date-iso@
 
