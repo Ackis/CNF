@@ -7,12 +7,12 @@
 ## X-Donate: http://www.wowace.com/projects/cnf/#w_donations
 
 ## Interface: 30300
-## Version: 3.41
-## X-Revision: @project-version@
+## Version: @project-version@
+## X-Revision: @project-abbreviated-hash@
 ## X-Date: @file-date-iso@
 
 ## X-Category: Chat/Communication
-## X-Localizations: enUS, deDE, ruRU
+## X-Localizations: enUS, deDE, ruRU, frFR, esES
 ## X-Website: http://www.wowwiki.com/CNF
 ## X-Feedback: http://wow.curse.com/downloads/wow-addons/details/cnf.aspx
 
