@@ -1,48 +1,47 @@
-== What it does ==
+==What it does
 
 A small mod which will display Chuck Norris facts to you and output to selected chat channels. Has anti-spam mechanisms built in. 
 
-== Where to get it ==
-*[http://www.curseforge.com/projects/cnf/files/ Curseforge] - Often Beta quality
-*[http://wow.curse.com/downloads/wow-addons/details/cnf.aspx Curse] - Most updated stable version
-*[http://wowui.worldofwar.net/?p=mod&m=6532/ WoW UI] - Stable Version
-*[http://www.wowinterface.com/downloads/info10003/ WoW Interface] - Stable Version
+==Where to get it
+*[[http://www.curseforge.com/projects/cnf/files/ | Curseforge]] - Often Beta quality
+*[[http://wow.curse.com/downloads/wow-addons/details/cnf.aspx | Curse]] - Most updated stable version
+*[[http://wowui.worldofwar.net/?p=mod&m=6532/ | WoW UI]] - Stable Version
+*[[http://www.wowinterface.com/downloads/info10003/ | WoW Interface]] - Stable Version
 
-==Donations==
-I have setup a donation site via [http://www.pledgie.com/campaigns/3462 Pledgie].  Feel free to donate if you like this mod.  I have put countless hours of time and effort into it along with many people who have helped me.  I did not write this mod with the intent to make any money from it, I wrote it to help me with some needs that I saw in-game.
+==Donations
+I have setup a donation site via [[http://www.pledgie.com/campaigns/13809 | Plegie]].  Feel free to donate if you like this mod.  I have put countless hours of time and effort into it along with many people who have helped me.  I did not write this mod with the intent to make any money from it, I wrote it to help me with some needs that I saw in-game.
 
 If you don't wish to donate money feel free to consider one of the following methods which may be more suitable:
-* Volunteer time at your local animal shelter such as the [http://www.edmontonhumanesociety.com/ Society for Prevention of Cruelty for Animals (SPCA)] or drop a few bucks off for them.  If you do this, please let [mailto:ackis@shaw.ca me] know.
-* Send 	[mailto:ackis@shaw.ca me] some UDE Points.  These points are obtained from the [http://www.wowtcg.com/ World of Warcraft TCG and Mini] game.
+* Volunteer time at your local animal shelter such as the [[http://www.aspca.org/|Society for Prevention of Cruelty for Animals (SPCA)]] or a [[http://www.edmontonhumanesociety.com/|local humane shelter]] or drop a few bucks off for them.  If you do this, please let [[http://www.wowace.com/home/send-private-message/|Ackis]] know.
 * Send some gold to one of the authors in-game or help out with some achievements, or even send a message saying thanks. :)
-** [http://www.wowarmory.com/character-sheet.xml?r=Thunderlord&n=Ackis Ackis (US)]
+** [[http://www.wowarmory.com/character-sheet.xml?r=Thunderlord&n=Ackis|Ackis Thunderlord (US)]] Ackis
 
-== How to get it to work ==
+==How to get it to work
 Type /chuck or /cnf to display a Chuck Norris fact to yourself.  Add a parameter such as say, party, raid, or guild to output to those channels.
 
-=== Examples ===
+===Examples
 *<code>/chuck</code> - Will print out a Chuck Norris fact for you to see.
 *<code>/chuck say</code> - Will print out a Chuck Norris fact in say.
 *<code>/chuck guild</code> - Will print out a Chuck Norris fact in guild.
 
-=== Commands ===
+===Commands
 *Display Chuck Norris facts:
 **<code>/chuck</code>
 **<code>/cnf</code>
 
-== Localization ==
-To contribute to a localization, please visit the [http://wow.curseforge.com/projects/cnf/localization/ localization application].  Anyone can add to these lists.  Please feel free to contribute.
+==Localization
+To contribute to a localization, please visit the [[http://wow.curseforge.com/projects/cnf/localization/ | localization application]].  Anyone can add to these lists.  Please feel free to contribute.
 
-== Known Issues ==
-All known issues will be kept at the [http://www.curseforge.com/projects/cnf/tickets/ Curseforge] tracker.
+==Known Issues
+All known issues will be kept at the [[http://www.curseforge.com/projects/cnf/tickets/ | Curseforge]] tracker.
 
-Please use the [http://www.curseforge.com/projects/cnf/tickets/ Curseforge] tracker to file bug reports.
+Please use the [[http://www.curseforge.com/projects/cnf/tickets/ | Curseforge]] tracker to file bug reports.
 
-== Wish List ==
-Please use the [http://www.curseforge.com/projects/cnf/tickets/ Curseforge] tracker to add suggestions and feature requests.
+==Wish List
+Please use the [[http://www.curseforge.com/projects/cnf/tickets/ | Curseforge]] tracker to add suggestions and feature requests.
 
-== Bug Reporting ==
-Please use the [http://www.curseforge.com/projects/cnf/tickets/ Curseforge] tracker to file bug reports.
+==Bug Reporting
+Please use the [[http://www.curseforge.com/projects/cnf/tickets/ | Curseforge]] tracker to file bug reports.
 
-== Wiki ==
-[http://www.wowwiki.com/CNF WoW Wiki]
+==Wiki
+[[http://www.wowpedia.org/CNF | Wiki]]

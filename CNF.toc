@@ -7,13 +7,14 @@
 ## X-Donate: http://www.wowace.com/projects/cnf/#w_donations
 
 ## Interface: 40000
+## X-Compatible-With: 40000
 ## Version: @project-version@
 ## X-Revision: @project-abbreviated-hash@
 ## X-Date: @file-date-iso@
 
 ## X-Category: Chat/Communication
 ## X-Localizations: enUS, deDE, ruRU, frFR, esES
-## X-Website: http://www.wowwiki.com/CNF
+## X-Website: http://www.wowpedia.org/CNF
 ## X-Feedback: http://wow.curse.com/downloads/wow-addons/details/cnf.aspx
 
 ## Dependencies:
