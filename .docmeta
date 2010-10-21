@@ -1,8 +1,8 @@
 -
- type: wiki
+ type: creole
  input-file: Docs/Main.txt
  output-page: "Main"
 -
- type: wiki
+ type: creole
  input-file: Docs/Localization.txt
  output-page: "Localization"
