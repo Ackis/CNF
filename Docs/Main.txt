@@ -14,20 +14,20 @@ I have setup a donation site via [[http://www.pledgie.com/campaigns/13809 | Pleg
 If you don't wish to donate money feel free to consider one of the following methods which may be more suitable:
 * Volunteer time at your local animal shelter such as the [[http://www.aspca.org/|Society for Prevention of Cruelty for Animals (SPCA)]] or a [[http://www.edmontonhumanesociety.com/|local humane shelter]] or drop a few bucks off for them.  If you do this, please let [[http://www.wowace.com/home/send-private-message/|Ackis]] know.
 * Send some gold to one of the authors in-game or help out with some achievements, or even send a message saying thanks. :)
-** [[http://www.wowarmory.com/character-sheet.xml?r=Thunderlord&n=Ackis|Ackis Thunderlord (US)]] Ackis
+** [[http://us.battle.net/wow/en/character/scarlet-crusade/Ackis/|Ackis Scarlet Crusade (US)]] Ackis
 
 ==How to get it to work
 Type /chuck or /cnf to display a Chuck Norris fact to yourself.  Add a parameter such as say, party, raid, or guild to output to those channels.
 
 ===Examples
-*<code>/chuck</code> - Will print out a Chuck Norris fact for you to see.
-*<code>/chuck say</code> - Will print out a Chuck Norris fact in say.
-*<code>/chuck guild</code> - Will print out a Chuck Norris fact in guild.
+*<<code>>/chuck<</code>> - Will print out a Chuck Norris fact for you to see.
+*<<code>>/chuck say<</code>> - Will print out a Chuck Norris fact in say.
+*<<code>>/chuck guild<</code>> - Will print out a Chuck Norris fact in guild.
 
 ===Commands
 *Display Chuck Norris facts:
-**<code>/chuck</code>
-**<code>/cnf</code>
+**<<code>>/chuck<</code>>
+**<<code>>/cnf<</code>>
 
 ==Localization
 To contribute to a localization, please visit the [[http://wow.curseforge.com/projects/cnf/localization/ | localization application]].  Anyone can add to these lists.  Please feel free to contribute.
