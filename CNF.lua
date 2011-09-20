@@ -29,21 +29,17 @@ local addon = CNF
 
 local random = math.random
 local lower = string.lower
-local GetGameTime = GetGameTime
 
 if (not LibStub:GetLibrary("AceLocale-3.0", true)) then
 	addon:Print(format("%s is missing.  Addon cannot run.","AceLocale-3.0"))
 	--@debug@
-	addon:Print("You are using a git version of ARL. All libraries manually to esnure that it works properly.")
+	addon:Print("You are using a git version of CNF. All libraries manually to esnure that it works properly.")
 	--@end-debug@
 	CNF = nil
 	return
 end
 
 local L	= LibStub("AceLocale-3.0"):GetLocale(MODNAME)
-
--- Spam protection
-local lastminute
 
 -- Returns configuration options for CNF
 
@@ -168,22 +164,14 @@ function addon:GetCNF()
 	return addon.CNFDB[random(#addon.CNFDB)]
 end
 
--- Outputs a chuck norris fact to the specified channel.  Does spam checking
+-- Outputs a chuck norris fact to the specified channel.
 
 function addon:DisplayCNF(channel,target)
 
-	local _,minute = GetGameTime()
-	-- If there is 1 or more minutes since the last time we did this or if it's the first time
-	if ((not lastminute) or ((minute - lastminute) > 0) or (abs((minute - lastminute)) > 0)) then
-		-- Update the time
-		lastminute = minute
-		if (target) then
-			SendChatMessage(self:GetCNF(), channel, nil, target)
-		else
-			SendChatMessage(self:GetCNF(), channel)
-		end
+	if (target) then
+		SendChatMessage(self:GetCNF(), channel, nil, target)
 	else
-		self:Print(L["SPAM"])
+		SendChatMessage(self:GetCNF(), channel)
 	end
 
 end
