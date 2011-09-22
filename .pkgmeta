@@ -4,12 +4,6 @@ license-output: LICENSE.txt
 
 enable-nolib-creation: yes
 
-ignore:
- - .pkgmeta
- - .docmeta
- - Docs
- - Locals/testenUS.lua
- 
 tools-used:
  - dlcount
  - querier
@@ -33,3 +27,12 @@ externals:
   url: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceAddon-3.0
  libs/LibAboutPanel:
   url: git://git.curseforge.net/wow/libaboutpanel/mainline.git
+
+ignore:
+ - .pkgmeta
+ - .docmeta
+ - Docs
+ - libs/LibAboutPanel/LibAboutPanel.toc
+ - Locals/testenUS.lua
+ - libs/LibStub/LibStub.toc
+ - libs/LibStub/tests
