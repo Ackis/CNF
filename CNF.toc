@@ -2,12 +2,14 @@
  
 ## Notes: Generates and posts random Chuck Norris facts to a specified chat medium.
 
-## Author: Ackis, lothaer
+## Author: Ackis
 ## eMail: ackis AT shaw DOT ca
+## X-Author-Faction = Horde
+## X-Author-Server = Hyjal US
 ## X-Donate: http://www.wowace.com/projects/cnf/#w_donations
 
-## Interface: 40300
-## X-Compatible-With: 40300
+## Interface: 50001
+## X-Compatible-With: 50001
 ## Version: @project-version@
 ## X-Revision: @project-abbreviated-hash@
 ## X-Date: @file-date-iso@
@@ -16,6 +18,7 @@
 ## X-Localizations: enUS, deDE, ruRU, frFR, esES
 ## X-Website: http://www.wowpedia.org/CNF
 ## X-Feedback: http://wow.curse.com/downloads/wow-addons/details/cnf.aspx
+## X-Credits: Lothaer
 
 ## Dependencies:
 ## X-Embeds: Ace3, LibStub, CallbackHandler-1.0, LibAboutPanel
