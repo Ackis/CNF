@@ -3,13 +3,13 @@
 ## Notes: Generates and posts random Chuck Norris facts to a specified chat medium.
 
 ## Author: Ackis
-## eMail: ackis AT shaw DOT ca
+## eMail: ackis81 AT gmail DOT com
 ## X-Author-Faction = Horde
 ## X-Author-Server = Hyjal US
 ## X-Donate: http://www.wowace.com/projects/cnf/#w_donations
 
-## Interface: 50001
-## X-Compatible-With: 50001
+## Interface: 70200
+## X-Compatible-With: 70200
 ## Version: @project-version@
 ## X-Revision: @project-abbreviated-hash@
 ## X-Date: @file-date-iso@
