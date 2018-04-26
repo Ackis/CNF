@@ -8,8 +8,8 @@
 ## X-Author-Server = Hyjal US
 ## X-Donate: http://www.wowace.com/projects/cnf/#w_donations
 
-## Interface: 70200
-## X-Compatible-With: 70200
+## Interface: 70300
+## X-Compatible-With: 70300
 ## Version: @project-version@
 ## X-Revision: @project-abbreviated-hash@
 ## X-Date: @file-date-iso@
